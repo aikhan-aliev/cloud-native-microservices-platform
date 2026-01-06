@@ -1,0 +1,9 @@
+rootProject.name = "cloud-native-microservices-platform"
+
+include (
+    "libs:common",
+        "services:api-gateway",
+        "services:auth-service",
+        "services:user-service",
+        "services:order-service"
+)

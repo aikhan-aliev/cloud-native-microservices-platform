@@ -1,0 +1,10 @@
+allprojects {
+    group = "com.ayxan.platform"
+    version = "0.1.0"
+}
+
+subproject {
+    repositories {
+        mavenCentral()
+    }
+}
